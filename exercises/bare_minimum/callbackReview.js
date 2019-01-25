@@ -27,7 +27,6 @@ var getStatusCode = function (url, callback) {
     } else {
       callback(null, response.statusCode)
     }
-    // console.log(res)
   });
 };
 
